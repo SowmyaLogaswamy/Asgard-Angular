@@ -1,23 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
 .cube{
-	background: orange;
+
 	width: 15rem;
 	height: 15rem;
 	left:500px;
 	top: 40px;
 }
+#color1 {
+  background: #FF3EFF;
+
+}
+#color2 {
+  background: #990099;
+}
+#color3 {
+  background: #FF77FF;
+}
+#color4 {
+  background: #CC00CC;
+}
+#color5 {
+  background: #FF3EFF;
+}
+#color6 {
+  background: #ffccff;
+}
+
+.well {
+  background-color: black;
+}
 
 .cube2{
-	background: purple;
+	background: transparent;
 	width: 15rem;
 	height: 15rem;
+  border: 2px solid pink;
 
 }
-
 .handle{
-	background:deepskyblue;
+	background:transparent;
 	height: 2rem;
 }
+
 
 
 

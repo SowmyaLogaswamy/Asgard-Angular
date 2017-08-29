@@ -1,10 +1,20 @@
-<div class="cube"  [ng2-draggable]="true" style="top:60px;left:400px;">
-
-</div>
+<h3>Now you are here to play the game of BLENDOKU</h3>
+<h4>Drag the color squares from right and drop them into the boxes</h4>
+<h5>Follow the order from lightest to the darkest</h5>
+<br><br><br>
+<div class="well">
+<div class="cube" id="color1" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
+<div class="cube" id="color2" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
+<div class="cube" id="color3" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
+<div class="cube" id="color4" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
+<div class="cube" id="color5" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
+<div class="cube" id="color6" [ng2-draggable]="true" style="position: relative; top: -850px; left: 400px;"></div><br>
 
 <div *ngFor="let cube of cubes">
-  <div class="cube2" [ng2-draggable]="false" [ng2DraggableHandle]="elementreference">
+
+  <div class="cube2" [ng2-draggable]="false" [ng2DraggableHandle]="elementreference" style="position: relative; top: -850px; left: 400px;">
     <div class="handle" #elementreference></div>
-    Drag me Around with the handle
-  </div>
+    Drag a cube on me!!
+  </div><br>
+</div>
 </div>
