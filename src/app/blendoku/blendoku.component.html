@@ -1,14 +1,23 @@
-<h3>Now you are here to play the game of BLENDOKU</h3>
-<h4>Drag the color squares from right and drop them into the boxes</h4>
-<h5>Follow the order from lightest to the darkest</h5>
-<br><br><br>
 <div class="well">
+<h1>Now you are here to play the game of BLENDOKU</h1>
+<h2>Drag the color squares from right and drop them into the boxes</h2>
+<h3>Follow the order from lightest to the darkest.</h3>
+<br><br>
+<div [hidden]="hideElement">
+  <h2>You won yourself another life. Click on the link to proceed to Asgard.</h2>
+<a href = "about"  id="next-link">Next</a>
+</div>
+<br>
+
 <div class="cube" id="color1" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
 <div class="cube" id="color2" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
 <div class="cube" id="color3" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
 <div class="cube" id="color4" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
 <div class="cube" id="color5" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
-<div class="cube" id="color6" [ng2-draggable]="true" style="position: relative; top: -850px; left: 400px;"></div><br>
+
+<button (click)="showLink()" class ="pull-right">Submit</button>
+
+<div class="cube" id="color6" [ng2-draggable]="false" style="position: relative; top: -850px; left: 400px;"></div><br>
 
 <div *ngFor="let cube of cubes">
 
@@ -17,4 +26,6 @@
     Drag a cube on me!!
   </div><br>
 </div>
+
+
 </div>

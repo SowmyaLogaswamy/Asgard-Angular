@@ -1,3 +1,3 @@
 export class Cube {
-  constructor (public name: string) {}
+  constructor (public name: string, public status: boolean) {}
 }

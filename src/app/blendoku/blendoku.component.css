@@ -1,3 +1,11 @@
+#next-link {
+  font-size: 200%;
+  display: nonee;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+}
 /* You can add global styles to this file, and also import other style files */
 .cube{
 
@@ -7,7 +15,7 @@
 	top: 40px;
 }
 #color1 {
-  background: #FF3EFF;
+  background: #ff99ff;
 
 }
 #color2 {
@@ -41,9 +49,6 @@
 	background:transparent;
 	height: 2rem;
 }
-
-
-
 
 /* Applies a grabbing hand on top of the div that's draggable*/
 .cube.cursor-draggable, .handle {
