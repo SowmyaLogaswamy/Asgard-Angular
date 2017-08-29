@@ -1,0 +1,10 @@
+<div class="cube"  [ng2-draggable]="true" style="top:60px;left:400px;">
+
+</div>
+
+<div *ngFor="let cube of cubes">
+  <div class="cube2" [ng2-draggable]="false" [ng2DraggableHandle]="elementreference">
+    <div class="handle" #elementreference></div>
+    Drag me Around with the handle
+  </div>
+</div>
