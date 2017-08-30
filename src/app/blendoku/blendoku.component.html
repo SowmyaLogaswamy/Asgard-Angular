@@ -1,11 +1,18 @@
+<div class = "container">
+<header>
+     <ul class="navbar nav-bar">
+         <li>Level: 2</li>
+         <li>Lives:<div class="fourlives"><img src="../img/blueheart.png"><img src="../img/blueheart.png"><img src="../img/blueheart.png"><img src="../img/blueheart.png"></div>
+         <div class="threelives"><img src="../img/greenheart.png"><img src="../img/greenheart.png"><img src="../img/greenheart.png"></div></li>
+     </ul>
+   </header>
+
 <div class="well">
-<h1>Now you are here to play the game of BLENDOKU</h1>
-<h2>Drag the color squares from right and drop them into the boxes</h2>
-<h3>Follow the order from lightest to the darkest.</h3>
+<h1>You’re in Niflheim, the land of ice. Place the ice cubes in color-coded order.</h1>
 <br><br>
 <div [hidden]="hideElement">
-  <h2>You won yourself another life. Click on the link to proceed to Asgard.</h2>
-<a href = "about"  id="next-link">Next</a>
+  <h2>You won again! Click on the link to proceed to the next world!.</h2>
+<a href = "https://ethoreson.github.io/Asgard_JavaScript/html/niflheim.html"  id="next-link">Next</a>
 </div>
 <br>
 
@@ -15,17 +22,15 @@
 <div class="cube" id="color4" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
 <div class="cube" id="color5" [ng2-draggable]="true" style="top:2px;left:819px;"></div><br>
 
-<button (click)="showLink()" class ="pull-right">Submit</button>
+<button (click)="showLink()" class ="pull-right btn btn-primary" >GO!</button>
 
 <div class="cube" id="color6" [ng2-draggable]="false" style="position: relative; top: -850px; left: 400px;"></div><br>
 
 <div *ngFor="let cube of cubes">
 
   <div class="cube2" [ng2-draggable]="false" [ng2DraggableHandle]="elementreference" style="position: relative; top: -850px; left: 400px;">
-    <div class="handle" #elementreference></div>
-    Drag a cube on me!!
+
   </div><br>
 </div>
-
-
+</div>
 </div>

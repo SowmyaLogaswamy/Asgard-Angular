@@ -6,7 +6,7 @@ import { BlendokuComponent }   from './blendoku/blendoku.component';
 
 const appRoutes: Routes = [
   {
-    path: '',
+    path: 'blendoku',
     component: WelcomeComponent
   },
   {
@@ -14,7 +14,7 @@ const appRoutes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'blendoku',
+    path: '',
     component: BlendokuComponent
   }
 ];

@@ -8,30 +8,29 @@ h1, h2, h3, h4 {
 }
 /* You can add global styles to this file, and also import other style files */
 .cube{
-
 	width: 15rem;
 	height: 15rem;
 	left:500px;
 	top: 40px;
 }
 #color1 {
-  background: #ff99ff;
+  background: #80d4ff;
 
 }
 #color2 {
-  background: #990099;
+  background: #006699;
 }
 #color3 {
-  background: #FF77FF;
+  background: #4dc3ff;
 }
 #color4 {
-  background: #CC00CC;
+  background: #0088cc;
 }
 #color5 {
-  background: #FF3EFF;
+  background: #1ab2ff;
 }
 #color6 {
-  background: #ffccff;
+  background: #b3e6ff;
 }
 
 .well {
@@ -42,13 +41,10 @@ h1, h2, h3, h4 {
 	background: transparent;
 	width: 15rem;
 	height: 15rem;
-  border: 2px solid pink;
+  border: 2px solid skyblue;
 
 }
-.handle{
-	background:transparent;
-	height: 2rem;
-}
+
 
 /* Applies a grabbing hand on top of the div that's draggable*/
 .cube.cursor-draggable, .handle {
