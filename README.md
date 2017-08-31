@@ -34,4 +34,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Link to gh-pages Asgard_JavaScript
 https://ethoreson.github.io/Asgard_JavaScript/html/index.html
 * Link to firebase app asgard-angular (deployed) https://asgard-games-d5483.firebaseapp.com
+https://asgard-games-d5483.firebaseapp.com
 * Next link from blendoku file:///Users/Guest/Desktop/Asgard_JavaScript/html/niflheim.html
