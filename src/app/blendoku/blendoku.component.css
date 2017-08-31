@@ -4,6 +4,9 @@ body {
   /*background-image: "../assets/images/download.jpeg";*/
 
 }
+.navbar {
+  background-color: grey;
+}
 
 #next-link {
   font-size: 200%;

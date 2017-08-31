@@ -13,6 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+For production build run `ng build --env=prod --output-hashing none`
 
 ## Running unit tests
 
@@ -33,6 +34,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * `$npm install ng2draggable`(https://github.com/cedvdb/ng2draggable)
 * Link to gh-pages Asgard_JavaScript
 https://ethoreson.github.io/Asgard_JavaScript/html/index.html
-* Link to firebase app asgard-angular (deployed) https://asgard-games-d5483.firebaseapp.com
-https://asgard-games-d5483.firebaseapp.com
+* Link to firebase app asgard-angular (deployed) https://asgard-new2.firebaseapp.com
 * Next link from blendoku file:///Users/Guest/Desktop/Asgard_JavaScript/html/niflheim.html
