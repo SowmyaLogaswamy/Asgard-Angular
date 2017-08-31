@@ -34,5 +34,7 @@ export class BlendokuComponent implements OnInit {
 
     }
   }
+  
+
 
 }

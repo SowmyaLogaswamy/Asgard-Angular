@@ -1,3 +1,10 @@
+body {
+  background-color: red !important;
+
+  /*background-image: "../assets/images/download.jpeg";*/
+
+}
+
 #next-link {
   font-size: 200%;
   display: nonee;
@@ -57,4 +64,14 @@ h1, h2, h3, h4 {
     cursor: grabbing;
     cursor: -moz-grabbing;
     cursor: -webkit-grabbing;
+}
+
+
+
+h1 {
+  font-size: 80px;
+}
+
+.img {
+  background-size: 100%;
 }
